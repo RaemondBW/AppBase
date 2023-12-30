@@ -10,6 +10,8 @@ import Firebase
 
 @main
 struct AppBaseApp: App {
+    @StateObject var appState = AppState() // Initialize your app state
+
     init() {
         FirebaseApp.configure()
     }
@@ -17,6 +19,7 @@ struct AppBaseApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(appState) // Pass the AppState to your ContentView
         }
     }
 }

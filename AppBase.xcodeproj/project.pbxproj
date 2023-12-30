@@ -19,6 +19,9 @@
 		3D4BBE322B3F77A300E20C65 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3D4BBE312B3F77A300E20C65 /* FirebaseFirestoreSwift */; };
 		3D4BBE342B3F77A300E20C65 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3D4BBE332B3F77A300E20C65 /* FirebaseStorage */; };
 		3D4BBE362B3FAC2600E20C65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D4BBE352B3FAC2600E20C65 /* GoogleService-Info.plist */; };
+		3D4BBE382B3FB1DC00E20C65 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BBE372B3FB1DC00E20C65 /* TutorialView.swift */; };
+		3D4BBE3A2B3FB23D00E20C65 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BBE392B3FB23D00E20C65 /* LoginView.swift */; };
+		3D4BBE3C2B3FB28800E20C65 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BBE3B2B3FB28800E20C65 /* RegistrationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		3D4BBE1D2B3F73CD00E20C65 /* AppBaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBaseUITests.swift; sourceTree = "<group>"; };
 		3D4BBE1F2B3F73CD00E20C65 /* AppBaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3D4BBE352B3FAC2600E20C65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3D4BBE372B3FB1DC00E20C65 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		3D4BBE392B3FB23D00E20C65 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3D4BBE3B2B3FB28800E20C65 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,9 @@
 				3D4BBE052B3F73CD00E20C65 /* Assets.xcassets */,
 				3D4BBE072B3F73CD00E20C65 /* AppBase.entitlements */,
 				3D4BBE082B3F73CD00E20C65 /* Preview Content */,
+				3D4BBE372B3FB1DC00E20C65 /* TutorialView.swift */,
+				3D4BBE392B3FB23D00E20C65 /* LoginView.swift */,
+				3D4BBE3B2B3FB28800E20C65 /* RegistrationView.swift */,
 			);
 			path = AppBase;
 			sourceTree = "<group>";
@@ -282,6 +291,9 @@
 			files = (
 				3D4BBE042B3F73CC00E20C65 /* ContentView.swift in Sources */,
 				3D4BBE022B3F73CC00E20C65 /* AppBaseApp.swift in Sources */,
+				3D4BBE3A2B3FB23D00E20C65 /* LoginView.swift in Sources */,
+				3D4BBE382B3FB1DC00E20C65 /* TutorialView.swift in Sources */,
+				3D4BBE3C2B3FB28800E20C65 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
